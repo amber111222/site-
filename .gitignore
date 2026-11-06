@@ -1,0 +1,26 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Signing and secrets
+*.jks
+*.keystore
+keystore.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the installable demo APK intentionally committed in outputs/
+!outputs/
+!outputs/NeonChess-Trainer-debug.apk
